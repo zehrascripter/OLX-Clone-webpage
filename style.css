@@ -1,0 +1,326 @@
+* {
+
+    padding: 0;
+    color: #000;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    margin: auto;
+}
+
+.header {
+    padding: 20px;
+    padding-left: 80px;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    box-shadow: 0 1px 1px #00000041;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+.header-bottom-bar {
+    /* padding-top: 10px; */
+    padding-left: 80px;
+    /* box-shadow: 0 1px 1px #00000041; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-bar-items {
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+
+.search-input {
+    padding: 10px;
+}
+
+.selectInput {
+    padding: 10px;
+    width: 200px;
+}
+
+.search {
+    width: 40vw;
+}
+
+.fa-magnifying-glass {
+    background-color: #002f34;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.sell-button {
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #fff;
+    border-bottom: 5px solid #3a77ff;
+    border-top: 5px solid #3a77ff;
+    border-left: 5px solid #ffce32;
+    border-right: 5px solid #23e5db;
+    width: 100px;
+    font-weight: 900;
+}
+
+.top-bar-icons {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.fa-user {
+    font-size: 20px;
+    padding: 2px 5px;
+    margin-left: 10px;
+    background-color: #dfdcb6;
+    border-radius: 50px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 0.8em;
+}
+
+li:hover {
+    cursor: pointer;
+    color: #46aca9;
+}
+
+.navbar-menu-cat {
+    margin-left: 10px;
+}
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.fa-car {
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 10px;
+    background: linear-gradient(to bottom, rgb(185, 181, 181), white);
+    border-radius: 50px;
+}
+
+.fa-building {
+    font-size: 25px;
+    padding: 10px;
+    background: linear-gradient(to bottom, rgb(185, 181, 181), white);
+    border-radius: 50px;
+}
+
+.mySlides {
+    width: 83%;
+    margin: 0 90px;
+    margin-top: 150px;
+}
+
+.displayImg2 {
+    margin: 0 280px;
+    padding: 10px 0;
+}
+
+/* ==============================section3============================ */
+
+.sec3 {
+    width: 87%;
+    margin: auto;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.miniCard {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin: 0 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+}
+
+.cardP {
+    font-weight: bold;
+    font-size: small;
+}
+
+/* ======================================section4================================ */
+
+.heading-a {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 90px;
+}
+
+.heading-a a {
+    font-weight: bold;
+    font-size: medium;
+    color: #3a77ff;
+}
+
+.heading-a a i {
+    color: #3a77ff;
+}
+
+.animals {
+    margin: 20px 75px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.animals .card {
+    margin: 10px 0;
+    margin-left: 15px;
+}
+
+.card-body div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.span1 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.span2 {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+    font-weight: bold;
+}
+
+.span3 {
+    font-size: 13px;
+    color: rgb(120, 120, 120);
+    font-weight: bold;
+}
+
+.span4 {
+    font-size: 12px;
+    color: rgb(120, 120, 120);
+    font-weight: bold;
+}
+
+/* <!-- =====================================Section 5===================================== --> */
+/* =========================================3rd last navaBars footer======================================= */
+.nav3 {
+    display: flex;
+    background-color: rgb(253, 247, 247);
+    width: 99%;
+    height: 200px;
+    padding: 0 50px;
+}
+
+.nav3 .center p {
+    font-weight: 500;
+    font-size: large;
+    color: rgb(120, 120, 120);
+
+}
+
+.line {
+    height: 180px;
+    border: 1px solid rgb(191, 191, 191);
+    margin: 10px 20px;
+}
+
+.nav3 .right {
+    padding-top: 50px;
+}
+
+.nav3 .right div {
+    display: flex;
+}
+
+
+/* =========================================2nd last navaBars footer======================================= */
+
+.navbar2 {
+    width: 99%;
+    height: 170px;
+    background-color: rgb(228, 227, 227);
+    border-top: 1px solid gray;
+    display: flex;
+}
+
+.navbar2 h6 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.navbar2 p {
+    line-height: 0;
+    font-size: 12px;
+    color: rgb(120, 120, 120);
+}
+
+.another {
+    margin-left: 100px;
+}
+
+.five .pics {
+    display: flex;
+}
+
+.five .pics img {
+    margin-top: 20px;
+}
+
+.five .pics .ml {
+    margin-left: 5px;
+}
+
+.fa-facebook-f {
+    width: 25px;
+    padding-left: 7px !important;
+}
+
+.five i {
+    font-size: small;
+    margin-left: 5px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* =========================================navbar1 last================================ */
+
+.end {
+    width: 99%;
+    background-color: rgb(12, 34, 62);
+    text-align: end;
+    height: 50px;
+}
+
+.end p {
+    color: #fff;
+    padding-right: 50px;
+    font-size: small;
+    padding-top: 15px;
+}
+
+.end p b {
+    color: #fff;
+}
